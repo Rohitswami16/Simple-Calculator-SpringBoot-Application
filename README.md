@@ -57,11 +57,16 @@ Make sure you have the following installed:
 3. 📊 The result will be displayed on the result page.
 
 ## 📸 Screenshots
-![Calculator UI](https://your-image-url.com)
+![Calculator UI]
+<table>
+   <tr> ![Screenshot 2025-02-26 221258](https://github.com/user-attachments/assets/1a217195-257f-48ef-a9b5-74871d13a0e4)</tr>
+   <tr>   ![Screenshot 2025-02-26 221324](https://github.com/user-attachments/assets/b16c663b-2858-4b0b-82d2-9a8459ae9892)</tr>
+   <tr>   ![Screenshot 2025-02-26 221344](https://github.com/user-attachments/assets/ab1ed556-5ed4-4ad2-bc2e-e69cdde55554)</tr>
+</table>
 
 ## 📜 License
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
-[Your Name] - Developer of Simple Calculator
+[Rohit Swami] - Developer of Simple Calculator
 
