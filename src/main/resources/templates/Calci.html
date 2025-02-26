@@ -1,0 +1,123 @@
+<!Doctype html>
+
+<html>
+
+<head>
+	<title>Simple Calculator</title>
+
+	<style>
+		body {
+		    font-family: Arial, sans-serif;
+		    background: linear-gradient(to right, #e0f7fa, #b3e5fc, #81d4fa); /* Light blue gradient */
+		    text-align: center;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    height: 100vh;
+		    margin: 0;
+		    padding: 0;
+		}
+		
+		.Calculator,
+		.result {
+			background: linear-gradient(to right, #81d4fa , #b3e5fc); /* Light blue gradient */
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			display: inline-block;
+			margin-top: 30px; 
+		}
+
+		h1 {
+			color: #333;
+		}
+
+		label {
+			font-weight: bold;
+			display: block;
+			margin-top: 10px;
+		}
+
+		input {
+			width: 80%;
+			padding: 8px;
+			margin: 10px 0;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+		}
+
+		button {
+			background-color: #007bff;
+			color: white;
+			border: none;
+			padding: 10px 15px;
+			margin: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			border-radius: 5px;
+			transition: 0.3s;
+		}
+
+		button:hover {
+			background-color: #0056b3;
+		}
+
+		.result-box {
+			margin-top: 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+		}
+
+		/* Navbar*/
+		.Navbar {
+			position: fixed;
+			width: 100%;
+			top: 0;
+			left: 0;
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			padding: 15px;
+			text-align: center;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		}
+
+		.Navbar h1 {
+			color: rgb(0, 0, 0);
+			font-size: 28px;
+			margin: 0;
+			padding: 10px;
+			display: inline-block;
+			text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+		}
+	</style>
+
+</head>
+
+<body>
+	<center>
+		<div class="Navbar">
+			<h1>SIMPLE CALCULATOR</h1>
+		</div>
+		<div class="Calculator">
+			<form action="http://localhost:8080/calculate" method="post">
+				<label for="num1">Enter Number 1:</label>
+				<input type="number" id="num1" name="n1" required />
+
+				<label for="num2">Enter Number 2:</label>
+				<input type="number" id="num2" name="n2" required />
+
+				<div>
+					<button type="submit" name="operation" value="add">ADD</button>
+					<button type="submit" name="operation" value="sub">SUB</button>
+					<button type="submit" name="operation" value="mul">MUL</button>
+					<button type="submit" name="operation" value="div">DIV</button>
+				</div>
+			</form>
+		</div>
+	</center>
+</body>
+
+</html>
