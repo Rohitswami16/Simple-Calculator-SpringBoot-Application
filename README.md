@@ -58,9 +58,21 @@ Make sure you have the following installed:
 
 ## 📸 Screenshots
 
-![Screenshot 2025-02-26 221258](https://github.com/user-attachments/assets/fbe25164-72ca-4378-9cac-cfb46c4d4c3d)
-![Screenshot 2025-02-26 221324](https://github.com/user-attachments/assets/371e71e9-c12e-4ab1-b996-d6f97fad904a)
-![Screenshot 2025-02-26 221344](https://github.com/user-attachments/assets/5210def3-625d-4eda-904f-4882bd45e6df)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/fbe25164-72ca-4378-9cac-cfb46c4d4c3d" width="400"><br><b>Home</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/371e71e9-c12e-4ab1-b996-d6f97fad904a" width="400"><br><b>Array</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5210def3-625d-4eda-904f-4882bd45e6df" width="400"><br><b>Array</b>
+    </td>
+     
+  </tr>
+</table>
+
 
 ## 📜 License
 This project is licensed under the MIT License.
