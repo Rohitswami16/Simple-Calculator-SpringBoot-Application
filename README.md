@@ -61,13 +61,13 @@ Make sure you have the following installed:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/fbe25164-72ca-4378-9cac-cfb46c4d4c3d" width="400"><br><b>Home</b>
+      <img src="https://github.com/user-attachments/assets/fbe25164-72ca-4378-9cac-cfb46c4d4c3d" width="400"><br><b>ADD</b>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/371e71e9-c12e-4ab1-b996-d6f97fad904a" width="400"><br><b>Array</b>
+      <img src="https://github.com/user-attachments/assets/371e71e9-c12e-4ab1-b996-d6f97fad904a" width="400"><br><b>DIV</b>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/5210def3-625d-4eda-904f-4882bd45e6df" width="400"><br><b>Array</b>
+      <img src="https://github.com/user-attachments/assets/5210def3-625d-4eda-904f-4882bd45e6df" width="400"><br><b>DIVISION BY ZERO IS NOT ALLOWED</b>
     </td>
      
   </tr>
